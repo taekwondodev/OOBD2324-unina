@@ -12,7 +12,7 @@ CREATE DATABASE postgres WITH OWNER postgres;
 Importare il dump del Database.
 [Link al dump](https://github.com/taekwondodev/OOBD2324project-unina/blob/main/BD/db_dump.sql)
 
-Issue known: error at line 360 syntax error. If you have this error ignore the dump file and go for it manually opening the Tables, Trigger, Procedure and PopulateDB files.
+Issue known: error at line 360 syntax error. Se incontri questo errore ignora il file Dump e procedi manualmente importando ed eseguendo i file delle Tables, Trigger, Procedure e PopulateDB.
 
 Importare le Tables del Database.
 [Link alle Tables](https://github.com/taekwondodev/OOBD2324project-unina/blob/main/BD/TABLES.sql)
