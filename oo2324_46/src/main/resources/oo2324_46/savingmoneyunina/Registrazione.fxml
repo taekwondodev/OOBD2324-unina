@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="517.0" prefWidth="679.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="oo2324_46.savingmoneyunina.BoundaryController.RegistrazionePageController">
+   <children>
+      <ImageView fitHeight="100.0" fitWidth="99.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../logo.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="75.0" layoutY="185.0" text="Nome" textFill="#336699">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="75.0" layoutY="235.0" text="Cognome" textFill="#336699">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="75.0" layoutY="284.0" text="Data Di Nascita" textFill="#336699">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nome" layoutX="182.0" layoutY="182.0" promptText="Nome" />
+      <TextField fx:id="cognome" layoutX="182.0" layoutY="232.0" promptText="Cognome" />
+      <DatePicker fx:id="dataDiNascita" layoutX="182.0" layoutY="281.0" prefHeight="26.0" prefWidth="149.0" promptText="m/d/yyyy" />
+      <Label layoutX="364.0" layoutY="187.0" text="Username" textFill="#336699">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="364.0" layoutY="237.0" text="Email" textFill="#336699">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="364.0" layoutY="285.0" text="Password" textFill="#336699">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="username" layoutX="444.0" layoutY="184.0" promptText="username" />
+      <TextField fx:id="email" layoutX="444.0" layoutY="234.0" promptText="example@gmail.com" />
+      <PasswordField fx:id="password" layoutX="444.0" layoutY="281.0" />
+      <Button fx:id="annulla" layoutX="212.0" layoutY="382.0" mnemonicParsing="false" onAction="#indietro" text="Annulla" textFill="#d01717">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="continua" layoutX="399.0" layoutY="382.0" mnemonicParsing="false" onAction="#avanti" text="Registrati" textFill="#336699">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Label fx:id="errore" layoutX="253.0" layoutY="340.0" textFill="#d01717">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
